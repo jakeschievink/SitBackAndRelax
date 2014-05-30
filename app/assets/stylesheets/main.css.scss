@@ -1,0 +1,36 @@
+// Place all the styles related to the Main controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+html, body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+#firstbg, #secondbg{
+    background: image-url("10.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index:-10;
+}
+#newpost{
+    //top is defined in main.js
+    position:absolute;
+    background: rgba(0,0,0,0.5);
+    left:91%;
+}
+#newpost:hover{
+    background: rgba(255,255,255,1);
+}
+#theproblem{
+    left: 2%;
+}
+
+
